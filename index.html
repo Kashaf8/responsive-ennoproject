@@ -1,0 +1,742 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>eNno</title>
+    <link rel="stylesheet" href="style.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <style>
+        .video-container {
+            position: relative;
+            width: 500px; /* Adjust as needed */
+        }
+
+        .thumbnail {
+            width: 100%;
+            display: block;
+            cursor: pointer;
+        }
+
+        .play-icon {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 80px; /* Icon size */
+            cursor: pointer;
+        }
+
+        video {
+            width: 100%;
+            display: none; /* Hide video initially */
+        }
+    </style>
+    
+</head>
+<body>
+    <div class="header">
+        <div class="logo">
+            <p>eNno</p>
+        </div>
+        <div class="navbar">
+                <a class="link1" href="#">Home</a>
+                <a class="link" href="#">About</a>
+                <a class="link" href="#">Services</a>
+                <a class="link" href="#">Portfolio</a>
+                <a class="link" href="#">Team</a>
+                <a class="Downdroplink" href="#">Downdrop</a>
+                <a class="link" href="#">Contact</a>
+           
+        </div>
+        <div class="butndiv">
+            <button class="button">Get Started</button>
+            <!-- <button class="page-button">Get Started</button> -->
+             </div>
+             <div class="menu">
+                <img class="menubar" src="../menu.png" alt="image">
+             </div>
+        
+    </div>
+    <div class="homepage">
+     <div class="left-homepage">
+        <h1 class="h1">
+            Elegant and creative solutions
+              </h1>
+<p class="para1">We are team of talented designers making websites with Bootstrap</p>
+              <div class="leftbutn">
+                <button class="page-button">Get Started</button>
+                <svg class="icon-vedio" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" width="50px" color="#10BC69">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M15.91 11.672a.375.375 0 0 1 0 .656l-5.603 3.113a.375.375 0 0 1-.557-.328V8.887c0-.286.307-.466.557-.327l5.603 3.112Z" />
+                  </svg>
+                  
+              <p class="para2">watch vedio</p>
+              </div>
+     </div>
+     <div class="right-homepage">
+        <img class="enno-image" src="enno.png" alt="image" width="500rem">
+     </div>
+    </div>
+    <div class="home-cards">
+        <div class="card1">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" width="50px" color="#10BC69" >
+                <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 6 9 12.75l4.286-4.286a11.948 11.948 0 0 1 4.306 6.43l.776 2.898m0 0 3.182-5.511m-3.182 5.51-5.511-3.181" />
+              </svg>
+              
+            <h3 class="card-heading">Lorem Ipsum</h3>
+              <p class="para3">Voluptatum deleniti atque corrupti quos</p>
+              <p class="para4">dolores et quas molestias excepturi</p>
+          
+        </div>
+        <div class="card1">
+            <img src="square.png" alt="image" width="55px" color="#10BC69">
+              
+            <h3 class="card-heading">Sed ut perspici</h3>
+            <p class="para3">Duis aute irure dolor in reprehenderit in</p>
+            <p class="para4">voluptate velit esse cillum dolore</p>
+ 
+        </div>
+        <div class="card1">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" width="50px" color="#10BC69" class="card-icon3">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 0 1 2.25-2.25h13.5A2.25 2.25 0 0 1 21 7.5v11.25m-18 0A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75m-18 0v-7.5A2.25 2.25 0 0 1 5.25 9h13.5A2.25 2.25 0 0 1 21 11.25v7.5m-9-6h.008v.008H12v-.008ZM12 15h.008v.008H12V15Zm0 2.25h.008v.008H12v-.008ZM9.75 15h.008v.008H9.75V15Zm0 2.25h.008v.008H9.75v-.008ZM7.5 15h.008v.008H7.5V15Zm0 2.25h.008v.008H7.5v-.008Zm6.75-4.5h.008v.008h-.008v-.008Zm0 2.25h.008v.008h-.008V15Zm0 2.25h.008v.008h-.008v-.008Zm2.25-4.5h.008v.008H16.5v-.008Zm0 2.25h.008v.008H16.5V15Z" />
+              </svg>
+              
+            <h3 class="card-heading">Magni Dolores</h3>
+            <p class="para3">Excepteur sint occaecat cupidata non proident,</p>
+            <p class="para4">sunt in culpa qui offcia</p>
+
+        </div>
+    </div>
+    <div class="enno-about">
+        <div class="about">
+            <h2 class="about-heading">ABOUT</h2>
+        </div>
+        <div>
+            <p class="para5">Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+        </div>
+    </div>
+    <div class="about-container">
+        <div class="left-about">
+            <div class="video-container">
+                <img src="play_boy-removebg-preview.png" alt="Thumbnail" class="thumbnail" id="thumbnail">
+                <img src="button-removebg-preview.png" alt="Play" class="play-icon" id="playIcon">
+                <video id="video" controls>
+                    <source src="video.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+           </div>
+            <div class="right-about">
+                <h3 class="about-heading3">Voluptatem dignissimos provident quasi</h3>
+            <h3 class="about-heading3">corporis voluptates sit assumenda.</h3>
+                <p class="paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</p>
+                 <p class="para6">tempor incididunt ut labore et dolore magna aliqua.</p>
+                <div class="checkdiv">
+                    <img class="checkimage" src="checktick.png" alt="image" width="25px" height="25px">
+                    <p class="para7">Ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div>
+                <div class="checkdiv">
+                    <img class="checkimage" src="checktick.png" alt="image" width="25px" height="25px">
+                    <p class="para7">Duis aute irure dolor in reprehenderit in voluptate velit.</p>
+                </div>
+               <div class="checkdiv">
+                <img class="checkimage" src="checktick.png" alt="image" width="25px" height="25px">
+                <p class="para7">Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure</p>
+               </div>
+                         <p class="para9">dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore</p>
+                          <p class="para9">eu fugiat nulla pariatur.</p>
+                          <p class="para10">Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure</p>
+                            <p class="para6">dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla</p>
+                              <p class="para6">pariatur. Excepteur sint occaecat cupidatat non proident</p>
+            </div>
+            
+    </div>
+    <div class="main-enno">
+        
+
+    <div id="counterSection" class="counter-section">
+        <div class="client1">
+            <div class="counter"><span id="clients">0</span></div>
+        <h4 class="client-heading">clients</h4>
+        </div>
+       <div class="client1">
+        <div class="counter"><span id="projects">0</span></div>
+        <h4 class="client-heading">projects</h4>
+       </div>
+       <div class="client1">
+        <div class="counter"><span id="support">0</span></div>
+        <h4 class="client-heading">Hours of Support</h4>
+       </div>
+       <div class="client1">
+        <div class="counter"><span id="workers">0</span></div>
+        <h4 class="client-heading">Workers</h4>
+       </div>
+    </div>
+    </div>
+    <div class="service-section">
+        <div class="service">
+            <h2 class="service-heading">SERVICES</h2>
+        </div>
+        <p class="service-para">Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+        <div class="service-cardsection">
+            <div class="service-card1">
+                <svg class="service-image" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" width="50px" color="white" >
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 6 9 12.75l4.286-4.286a11.948 11.948 0 0 1 4.306 6.43l.776 2.898m0 0 3.182-5.511m-3.182 5.51-5.511-3.181" />
+                  </svg>
+                  <h2 class="service-heading2">Nesciunt Mete</h2>
+                  <p class="service-para2">Provident nihil minus consequatur non omnis maiores. Eos accusantium minus dolores iure perferendis tempore et consequatur</p>
+            </div>
+            <div class="service-card1">
+                <svg class="service-image" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" color="#ffffff" width="40px">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M9.348 14.652a3.75 3.75 0 0 1 0-5.304m5.304 0a3.75 3.75 0 0 1 0 5.304m-7.425 2.121a6.75 6.75 0 0 1 0-9.546m9.546 0a6.75 6.75 0 0 1 0 9.546M5.106 18.894c-3.808-3.807-3.808-9.98 0-13.788m13.788 0c3.808 3.807 3.808 9.98 0 13.788M12 12h.008v.008H12V12Zm.375 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Z" />
+                  </svg>
+                  
+                  
+                  <h2 class="service-heading2">Eosle Commodi</h2>
+                  <p class="service-para2">Ut autem aut autem non a. Sint sint sint facilis nam iusto sint. Libero corrupti neque eum hic non ut nesciunt dolorem.</p>
+            </div>
+            <div class="service-card1">
+                <img class="service-image" src="TVGEN.png" alt="image" width="40px">
+                  <h2 class="service-heading2">Ledo Markt</h2>
+                  <p class="service-para2">Ut excepturi voluptatem nisi sed. Quidem fuga consequatur.Minus ea aut.Vel qui id voluptas adipisci eos earum corrupti.</p>
+            </div>
+            <div class="service-card1">
+                <img class="service-image" src="whitesquare.png" alt="image">
+                  <h2 class="service-heading2">Aseperiores Commodit</h2>
+                  <p class="service-para2">Non et temporibus minus omnis sed dolor esse consequatur. cupiditate sed error ea fuga sit provuident adipisci neque.</p>
+            </div>
+            <div class="service-card1">
+                <svg class="service-image" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" width="50px" color="#ffffff" class="card-icon3">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 0 1 2.25-2.25h13.5A2.25 2.25 0 0 1 21 7.5v11.25m-18 0A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75m-18 0v-7.5A2.25 2.25 0 0 1 5.25 9h13.5A2.25 2.25 0 0 1 21 11.25v7.5m-9-6h.008v.008H12v-.008ZM12 15h.008v.008H12V15Zm0 2.25h.008v.008H12v-.008ZM9.75 15h.008v.008H9.75V15Zm0 2.25h.008v.008H9.75v-.008ZM7.5 15h.008v.008H7.5V15Zm0 2.25h.008v.008H7.5v-.008Zm6.75-4.5h.008v.008h-.008v-.008Zm0 2.25h.008v.008h-.008V15Zm0 2.25h.008v.008h-.008v-.008Zm2.25-4.5h.008v.008H16.5v-.008Zm0 2.25h.008v.008H16.5V15Z" />
+                  </svg>
+                  <h2 class="service-heading2">Velit Doloremque</h2>
+                  <p class="service-para2">Cumque et suscipit saepe.Est maiores autem enim facilis ut aut ipsam corporisaut.Sed animi at autem alias eius labore.</p>
+            </div>
+            <div class="service-card1">
+               <img class="service-image" src="message.png" alt="image" width="40px">
+                  <h2 class="service-heading2">Dolori Architecto</h2>
+                  <p class="service-para2">Hic molestias ea quibusdam eos.Fugiat enim doloremque aut neque non et debitis iure. Corrupti recusandae ducimus enim.</p>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-section">
+        <div class="service">
+            <h2 class="Portfolio-heading">PORTFOLIO</h2>
+        </div>
+        <p class="portfolio-para">Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+        <div class="portfolio-list">
+            <ul>
+                <li class="active" onclick="filterGallery('all', event)">All</li>
+                <li onclick="filterGallery('app', event)">App</li>
+                <li onclick="filterGallery('product', event)">Product</li>
+                <li onclick="filterGallery('branding', event)">Branding</li>
+                <li onclick="filterGallery('books', event)">Books</li>
+            </ul>
+        </div>
+        <div class="gallery">
+            
+            <div class="portfolio-item">
+                <img class="hoveriimage" src="mobile.jpg" class="app">
+                
+                <div class="overlay">
+                    <div class="overlay-content">
+                        <h3>Books 1</h3>
+                        <div class="pro"><p>Lorem ipsum, dolor sit amet consectetur</p>
+                            <div class="icons">
+                                <a href="#"><i class="fas fa-search-plus"></i></a>
+                                <a href="#"><i class="fas fa-link"></i></a>
+                            </div></div>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="portfolio-item">
+                <img src="watch.jpg" class="product">
+                <div class="overlay">
+                    <div class="overlay-content">
+                        <h3>Books 1</h3>
+                        <div class="pro">
+                            <p>Lorem ipsum, dolor sit amet consectetur</p>
+                        <div class="icons">
+                            <a href="#"><i class="fas fa-search-plus"></i></a>
+                            <a href="#"><i class="fas fa-link"></i></a>
+                        </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="portfolio-item">
+                <img src="cream.jpg" class="branding">
+           
+                
+                <div class="overlay">
+                    <div class="overlay-content">
+                        <h3>Books 1</h3>
+                        <div class="pro">
+                            <p>Lorem ipsum, dolor sit amet consectetur</p>
+                            <div class="icons">
+                                <a href="#"><i class="fas fa-search-plus"></i></a>
+                                <a href="#"><i class="fas fa-link"></i></a>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="portfolio-item">
+                <img src="camera.jpg" class="product">
+                
+                <div class="overlay">
+                    <div class="overlay-content">
+                        <h3>Books 1</h3>
+                        <div class="pro">
+                            <p>Lorem ipsum, dolor sit amet consectetur</p>
+                            <div class="icons">
+                                <a href="#"><i class="fas fa-search-plus"></i></a>
+                                <a href="#"><i class="fas fa-link"></i></a>
+                            </div>
+                        </div>
+                       
+                    </div>
+                </div>
+            </div>
+            <div class="portfolio-item">
+                <img src="organic.jpg" class="branding">
+                
+                <div class="overlay">
+                    <div class="overlay-content">
+                        <h3>Books 1</h3>
+                        <div class="pro">
+                            <p>Lorem ipsum, dolor sit amet consectetur</p>
+                            <div class="icons">
+                                <a href="#"><i class="fas fa-search-plus"></i></a>
+                                <a href="#"><i class="fas fa-link"></i></a>
+                            </div>
+                        </div>
+                      
+                    </div>
+                </div>
+            </div>
+            <div class="portfolio-item">
+                <img src="lamp.jpg" class="product">
+            
+                <div class="overlay">
+                    <div class="overlay-content">
+                        <h3>Books 1</h3>
+                        <div class="pro">
+                            <p>Lorem ipsum, dolor sit amet consectetur</p>
+                            <div class="icons">
+                                <a href="#"><i class="fas fa-search-plus"></i></a>
+                                <a href="#"><i class="fas fa-link"></i></a>
+                            </div>
+                        </div>
+                     
+                    </div>
+                </div>
+            </div>
+            <!-- <div class="portfolio-item">
+                <img src="book2.jpg" alt="image" class="books">
+                
+                <div class="overlay">
+                    <div class="overlay-content">
+                        <h3>Books 1</h3>
+                        <div class="pro">
+                            <p>Lorem ipsum, dolor sit amet consectetur</p>
+                            <div class="icons">
+                                <a href="#"><i class="fas fa-search-plus"></i></a>
+                                <a href="#"><i class="fas fa-link"></i></a>
+                            </div>
+                        </div>
+                      
+                    </div>
+                </div>
+            </div> -->
+            <div class="portfolio-item">
+                <img src="phone.jpg" class="app">
+            
+                <div class="overlay">
+                    <div class="overlay-content">
+                        <h3>Books 1</h3>
+                        <div class="pro">
+                            <p>Lorem ipsum, dolor sit amet consectetur</p>
+                            <div class="icons">
+                                <a href="#"><i class="fas fa-search-plus"></i></a>
+                                <a href="#"><i class="fas fa-link"></i></a>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="portfolio-item">
+                <img src="book2.jpg" alt="image" class="books">
+                
+                <div class="overlay">
+                    <div class="overlay-content">
+                        <h3>Books 1</h3>
+                        <div class="prop">
+                            <p>Lorem ipsum, dolor sit amet consectetur</p>
+                            <div class="icons">
+                                <a href="#"><i class="fas fa-search-plus"></i></a>
+                                <a href="#"><i class="fas fa-link"></i></a>
+                            </div>
+                        </div>
+                       
+                    </div>
+                </div>
+            </div>
+            <div class="portfolio-item">
+                <img src="phone3.jpg" class="app">
+                <div class="overlay">
+                    <div class="overlay-content">
+                        <h3>Books 1</h3>
+                        <div class="pro">  <p>Lorem ipsum, dolor sit amet consectetur</p>
+                            <div class="icons">
+                                <a href="#"><i class="fas fa-search-plus"></i></a>
+                                <a href="#"><i class="fas fa-link"></i></a>
+                            </div></div>
+                      
+                    </div>
+                </div>
+            </div>
+            <div class="portfolio-item">
+                <img src="book.jpg" class="books">
+                <div class="overlay">
+                    <div class="overlay-content">
+                        <h3>Books 1</h3>
+                        <div class="pro">
+                            <p>Lorem ipsum, dolor sit amet consectetur</p>
+                            <div class="icons">
+                                <a href="#"><i class="fas fa-search-plus"></i></a>
+                                <a href="#"><i class="fas fa-link"></i></a>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="portfolio-item">
+                <img src="serum.jpg" class="branding">
+                <div class="overlay">
+                    <div class="overlay-content">
+                        <h3>Books 1</h3>
+                        <div class="pro">
+                            <p>Lorem ipsum, dolor sit amet consectetur</p>
+                        <div class="icons">
+                            <a href="#"><i class="fas fa-search-plus"></i></a>
+                            <a href="#"><i class="fas fa-link"></i></a>
+                        </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="portfolio-item">
+             
+            <img src="book3.jpg" class="books">
+                <div class="overlay">
+                    <div class="overlay-content">
+                        <h3>Books 1</h3>
+                        <div class="pro">
+                            <p>Lorem ipsum, dolor sit amet consectetur</p>
+                            <div class="icons">
+                                <a href="#"><i class="fas fa-search-plus"></i></a>
+                                <a href="#"><i class="fas fa-link"></i></a>
+                            </div>
+                        </div>
+                       
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    <div class="Testimonials-section">
+        <div class="Testimonials">
+            <h2 class="Testimonials-heading">TESTIMOMIALS</h2>
+        </div> 
+        <P class="Testimonials-para">Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</P>
+    </div>
+    <!-- Testmonial -->
+    <section class="testimonials">
+        <div class="testimonial-container">
+            <!-- Testimonial 1 -->
+            <div class="testimonial">
+                <p class="quote">
+                    <span class="quote-icon">“</span>
+                    Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid malis quorum velit fore eram velit sunt aliqua noster.
+                    <span class="quote-icon">”</span>
+                </p>
+                <div class="profile">
+                    <img src="testimonials-2.jpg" alt="Sara Wilsson">
+                    <div class="info">
+                        <h4>Sara Wilsson</h4>
+                        <p>Designer</p>
+                    </div>
+                </div>
+               
+            </div>
+
+            <!-- Testimonial 2 -->
+            <div class="testimonial">
+                <p class="quote">
+                    <span class="quote-icon">“</span>
+                    Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute.
+                    <span class="quote-icon">”</span>
+                </p>
+                <div class="profile">
+                    <img src="testimonials-3.jpg" alt="Jena Karlis">
+                    <div class="info">
+                        <h4>Jena Karlis</h4>
+                        <p>Store Owner</p>
+                    </div>
+                </div>
+             
+            </div>
+
+            <!-- Testimonial 3 -->
+            <div class="testimonial">
+                <p class="quote">
+                    <span class="quote-icon">“</span>
+                    Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat dolor enim duis veniam ipsum anim magna sunt elit fore.
+                    <span class="quote-icon">”</span>
+                </p>
+                <div class="profile">
+                    <img src="testimonials-4.jpg" alt="Matt Brandon">
+                    <div class="info">
+                        <h4>Matt Brandon</h4>
+                        <p>Freelancer</p>
+                    </div>
+                </div>
+             
+            </div>
+        </div>
+
+       
+    </section>
+     <!-- Dots Navigation -->
+     <div class="dots">
+        <span class="dot active"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+    </div>
+    <div class="animated-box">
+        <div class="call">
+            <h2 class="call-heading">Call To Action</h2>
+            <p class="call-para1">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat</p>
+            <p class="call-para">non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <button class="call-button">Call to Action</button>
+        </div>
+    </div>
+    <!-- team section -->
+  <div class="teamcards">
+    <div class="team-section">
+        <div class="Team">
+            <h2 class="Team-heading">TEAM</h2>
+        </div> 
+        <p class="team-para">Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+        <div class="team-cards">
+            <div class="teamcard1">
+                
+            </div>
+        </div>
+    </div>
+    <section class="team-section">
+        <div class="team-container">
+            <div class="team-member">
+                <img src="team-1.jpg" alt="Walter White">
+                <div class="team-info">
+                    <h3>Walter White</h3>
+                    <hr>
+                    <div class="center">
+                        <p>Chief Executive Officer</p>
+                        <div class="team-socials">
+                            <a href="#"><i class="fab fa-x-twitter"></i></a>
+                            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                        </div>
+                    </div>
+                   
+                </div>
+            </div>
+    
+            <div class="team-member">
+                <img src="team-2.jpg" alt="Sarah Jhonson">
+                <div class="team-info">
+                    <h3>Sarah Jhonson</h3>
+                    <hr>
+                    <div class="center">
+                        <p>Product Manager</p>
+                        <div class="team-socials">
+                            <a href="#"><i class="fab fa-x-twitter"></i></a>
+                            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                        </div>
+                    </div>
+                   
+                </div>
+            </div>
+    
+            <div class="team-member">
+                <img src="team-3.jpg" alt="William Anderson">
+                <div class="team-info">
+                    <h3>William Anderson</h3>
+                    <hr>
+                    <div class="center">
+                        <p>CTO</p>
+                        <div class="team-socials">
+                            <a href="#"><i class="fab fa-x-twitter"></i></a>
+                            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                        </div>
+                    </div>
+                   
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    
+    <div class="team-section">
+        <div class="Team">
+            <h2 class="Team-heading">CONTACT</h2>
+        </div> 
+        <p class="team-para">Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+        <div class="team-cards">
+            <div class="teamcard1">
+                
+            </div>
+        </div>
+    </div>
+  </div>
+   <!-- contact section -->
+   <div class="container">
+    <!-- Left Side (Contact Info) -->
+    <div class="contact-info">
+        <div class="info-box">
+            <div class="icon"><i class="fa-solid fa-location-dot"></i></div>
+            <div class="details">
+                <h3>Address</h3>
+                <p>A108 Adam Street, New York, NY 535022</p>
+            </div>
+        </div>
+        <div class="info-box">
+            <div class="icon"><i class="fa-solid fa-phone"></i></div>
+            <div class="details">
+                <h3>Call Us</h3>
+                <p>+1 5589 55488 55</p>
+            </div>
+        </div>
+        <div class="info-box">
+            <div class="icon"><i class="fa-solid fa-envelope"></i></div>
+            <div class="details">
+                <h3>Email Us</h3>
+                <p>info@example.com</p>
+            </div>
+        </div>
+        <div class="map-container">
+            <iframe class="map" src="https://www.google.com/maps/embed?..." allowfullscreen loading="lazy"></iframe>
+        </div>
+    </div>
+
+    <!-- Right Side (Form) -->
+    <section class="contact-form">
+        <form>
+            <div class="form-group row">
+                <div class="input-box">
+                    <label class="label">Your Name</label>
+                    <input type="text">
+                </div>
+                <div class="input-box">
+                    <label class="label">Your Email</label>
+                    <input type="email" >
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label class="label">Subject</label>
+                <input type="text" >
+            </div>
+
+            <div class="form-group">
+                <label class="label">Message</label>
+                <textarea rows="10" ></textarea>
+            </div>
+            <div class="btn">
+                <button type="submit">Send Message</button>
+            </div>
+            
+        </form>
+    </section>
+</div>
+  
+<!-- newsletter section -->
+<section class="newsletter">
+    <h2>Join Our Newsletter</h2>
+    <p>Subscribe to our newsletter and receive the latest news about our products and services!</p>
+    <div class="newsletter-box">
+        <input type="email">
+        <button>Subscribe</button>
+    </div>
+</section>
+<!-- footer -->
+<footer class="custom-footer">
+    <div class="footer-container">
+        <div class="footer-section section1">
+            <h>eNno</h2>
+            <p class="parag">A108 Adam Street<br>New York, NY 535022</p>
+            <p class="parag"><strong>Phone:</strong> +1 5589 55488 55</p>
+            <p class="parag"><strong>Email:</strong> info@example.com</p>
+        </div>
+        <div class="footer-section section2">
+            <h3>Useful Links</h3>
+            <ul>
+                <li class="list"><span>›</span> Home</li>
+                <li class="list"><span>›</span> About us</li>
+                <li class="list"><span>›</span> Services</li>
+                <li class="list"><span>›</span> Terms of service</li>
+            </ul>
+        </div>
+
+       
+
+        <div class="footer-section section3">
+            <h3>Our Services</h3>
+            <ul>
+                <li class="list"><span>›</span> Web Design</li>
+                <li class="list"><span>›</span> Web Development</li>
+                <li class="list"><span>›</span> Product Management</li>
+                <li class="list"><span>›</span> Marketing</li>
+            </ul>
+        </div>
+
+        <div class="footer-section section4">
+            <h3>Follow Us</h3>
+            <p>Cras fermentum odio eu feugiat lide par naso tierra videa magna derita valies.</p>
+            <div class="footer-social">
+                <a href="#"><i class="fab fa-x-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+        </div>
+    </div>
+   
+
+    <div class="footer-bottom">
+        <p>© Copyright <strong>eNno</strong> All Rights Reserved</p>
+        <p>Designed by <a href="#">BootstrapMade</a></p>
+    </div>
+
+    <a href="#" class="footer-back-to-top"><i class="fas fa-arrow-up"></i></a>
+</footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
